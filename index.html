@@ -47,10 +47,22 @@
         a.button:hover {
             background-color: #d2780e;
         }
+        iframe {
+            margin-top: 20px;
+            border: none;
+            width: 560px;
+            height: 315px;
+        }
         footer {
             margin-top: 30px;
             font-size: 0.9rem;
             color: #bbb;
+        }
+        @media (max-width: 600px) {
+            iframe {
+                width: 100%;
+                height: 200px;
+            }
         }
     </style>
 </head>
@@ -61,7 +73,14 @@
     <p>Home of the creator of Bitcoin</p>
     <p>Contact: <strong>satoshi@vistomail.com</strong></p>
     <a href="https://nowpayments.io/payment/?iid=4616361441" class="button" target="_blank">Buy Now</a>
-    
+
+    <!-- Video Section -->
+    <iframe 
+        src="https://www.youtube.com/embed/3n_WnVPhRTo?autoplay=1&mute=0&rel=0&showinfo=0&controls=0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+
     <!-- Footer -->
     <footer>
         &copy; 2024 - Bitcoin Legacy. All Rights Reserved.
